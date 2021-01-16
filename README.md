@@ -18,10 +18,9 @@ Beginning :
   * https://www.youtube.com/watch?v=AJVyzd0rqdc
   * https://www.youtube.com/watch?v=JrO5fSskISY
   * https://drive.google.com/file/d/1uwvXkKfrOjYsRKLO7RK4KbvpWmu_YPN_/view
+  * https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
 2. Come up with Plan on how to implement
 
 
 Plan : 
-1. 
-2. 
-3.
+* >>>>To be added<<<<<
