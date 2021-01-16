@@ -1,6 +1,6 @@
 # StyleFlowGAN
 ### You can follow my journey on implementing the paper over here(input a link to the future medium posts)
-Implementation of Style Flow GAN from this paper : https://rameenabdal.github.io/StyleFlow/
+Implementation of Style Flow GAN in pytorch, from this paper : https://rameenabdal.github.io/StyleFlow/
 
 What i already know : 
 1. Neural Networks, ReinforcmentL(Actor & Critic - idea of 2 ANNs), Vision, some NLP, & ML
