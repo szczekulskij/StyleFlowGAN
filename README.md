@@ -5,7 +5,7 @@ Implementation of Style Flow GAN in pytorch, from this paper : https://rameenabd
 What i already know : 
 1. Neural Networks, ReinforcmentL(Actor & Critic - idea of 2 ANNs), Vision, some NLP, & ML
 2. Pytorch
-3. Python - I know good chunk of the best practices, pandas, numpy, matplotlib, magic methods(such a cool name btw)
+3. Python - I know good chunk of the best practices, how to manipulate data and slightly more advanced python programming topics like magic methods 
 
 
 Beginning : 
