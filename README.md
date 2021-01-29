@@ -19,6 +19,7 @@ Beginning :
   * https://www.youtube.com/watch?v=JrO5fSskISY
   * https://drive.google.com/file/d/1uwvXkKfrOjYsRKLO7RK4KbvpWmu_YPN_/view
   * https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
+  * https://arxiv.org/pdf/1406.2661.pdf
 2. Come up with Plan on how to implement
 
 

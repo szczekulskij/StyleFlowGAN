@@ -1,0 +1,9 @@
+https://towardsdatascience.com/deep-generative-models-25ab2821afd3 : 
+* Worth having read through that before diving into above article : https://www.jeremyjordan.me/autoencoders/
+* VAE - Variational Autoencoder that tries to learn underlying latent variables behind the distribution. The way I understand it - let's say we have got a lot of cat pictures, all the care share some similarities like eyes, fur, tail some body proportion which are variables that are normally distributed (sometimes tail is longer). VAE tries to learn best approximation of those variables, by minimalizing some loss( this is a bit when a lot of maths come in and i redirect You to this further explenation post here). The way it minimizes loss - it wants the smallest loss over all the INPUT images, a.k.a it will learn underylying variables behind those images and those images only - not behind entire population but only sample of the population. ***It's woth to mention that those variables are not just distributed in one dimensions, but a lot(a.k.a. the tail can be longer, but it can also be thicer, have a different shape etc.)
+* GAN - General Adversial. Nash equilibrium game between 2 neural networks. 1st ANN is called Generator, it gets some "kind of random noise" (more on that later) and given that random noise it tries to generate an image. Then, 2nd ANN descriminator gets those images, and looks at real images and tries to guess which one are real ones. 
+* cGAN - Conditional Gan, on top on noise, also input conditional vector to Generator to get images with specific feature. (I guess that's how Style Gan works - yet to be learnt)
+
+
+https://www.cs.cmu.edu/~rsalakhu/papers/annrev.pdf
+* 
