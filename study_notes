@@ -4,6 +4,30 @@ https://towardsdatascience.com/deep-generative-models-25ab2821afd3 :
 * GAN - General Adversial. Nash equilibrium game between 2 neural networks. 1st ANN is called Generator, it gets some "kind of random noise" (more on that later) and given that random noise it tries to generate an image. Then, 2nd ANN descriminator gets those images, and looks at real images and tries to guess which one are real ones. 
 * cGAN - Conditional Gan, on top on noise, also input conditional vector to Generator to get images with specific feature. (I guess that's how Style Gan works - yet to be learnt)
 
+https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/
+* GANs found the way to treat the unsupervised problem as supervised. To do that it needed to generate input variables and labels, treaing your unsupervised set as labels is ingenious
+* DCGAN - deep conv GAN - one of the first best uses of GAN, until today you can find reminiscent of convolutions and de-convolutions in GANs
+* The discriminator model takes an example from the domain as input (real or generated) and predicts a binary class label of real or fake (generated). Discriminator is very simple, well known model for binary prediction using ANN (look no further than famous cats vs dogs)
+* Some of most amazing GANs like style transfer, photo colorization, transforming photos from summer to winter or day to night, and so on come from cGANs that are conditioned on "example from the domain such as image"(please make this bit clearer)
+* Gans are amazing as Data Augmentation tool ( In the most crazy example of the top of my head, it might be possible to pre-train GANs for 1000 objects, then use transfer learnign and given only 5 images genereate entire set that later can be used for supervised learning task(which could also use transfer learning btw) - possibilities might be limitless)
+* At the bottom of the link you can find SOOO much more useful links - make sure to come back there at some point, especially if you get stuck
 
 https://www.cs.cmu.edu/~rsalakhu/papers/annrev.pdf
+* This focuses much more on the broader topic of Deep Generative models of which GAN is just a subset. 
+* Great resource for deeper dive into maths behind DGM & for pseudo code for some DGMs
+* Might come back in much further futer - for now let's not lose momentum by spending time learning all about DGM field
+
+https://arxiv.org/pdf/1406.2661.pdf (GAN paper - 9p long, by Ian Goodfellow, father to GANs)
 * 
+
+https://www.youtube.com/watch?v=AJVyzd0rqdc (Ian Goodfellow himself, introducing GAN in 2hrs long video)
+* 
+
+Divering from the topic - Naive Bayes (I never got real understanding of it, try to learn our lesson):
+https://machinelearningmastery.com/naive-bayes-for-machine-learning/
+* 
+
+
+
+
+
